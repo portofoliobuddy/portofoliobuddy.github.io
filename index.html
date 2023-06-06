@@ -5,8 +5,13 @@
     </head>
 
     <body>
-        <p>
-            Hello World
-        </p>
+
+        <dialog id="d">
+            Hello!
+
+            <button onclick="d.close()">Open Dialog</button>
+        </dialog>
+
+        <button onclick="d.showModal()">Open Dialog</button>
     </body>
 </html>
